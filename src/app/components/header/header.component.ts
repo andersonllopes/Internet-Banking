@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  formLogin: any;
+
+  constructor(private form: FormBuilder) { }
 
   ngOnInit(): void {
-    console.log('Componente header iniciado...');
+    this.formLogin = this.form.group({
+      cpf: ['']
+    });
   }
 }

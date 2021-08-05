@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Crete+Round|Poppins');
 .wrapper-content {
-width: 100vw;
-height: 70vh;
+position: relative;
+width: 100%;
+height: 90vh;
 z-index: -9999;
-top: -60px;
 }
 .box-tile {
 width: 40vw;
@@ -35,3 +35,15 @@ z-index: -1000;
 background: url('https://imagens.ebc.com.br/1LPkC8LWWNaedGnjORCip6I6qmM=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/30092020dolar1378.jpg?itok=WJeeMRST?raw=true') no-repeat;
 background-size: cover;
 }
+
+.btn-home-cadastro-clientes {
+  position: absolute !important;
+  top: 150px;
+  right: -450px;
+  padding: 20px;
+  font-size: 25px;
+  width: 40%;
+  background: rgb(177, 25, 25);
+  color: #fff;
+  border: 2px solid;
+  }

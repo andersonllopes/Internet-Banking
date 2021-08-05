@@ -1,6 +1,9 @@
 .wrapper-header {
-  height: 30vh;
-  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
   background: #d42b1e;
   color: #fff;
   box-shadow: 0 2px 5px -2px grey;
@@ -13,7 +16,7 @@
 }
 .acessar-conta {
   position: absolute;
-  right: 30px;
+  right: 150px;
   top: 35px;
   background-color: #fff;
   border: 0;
