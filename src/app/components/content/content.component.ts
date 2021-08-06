@@ -24,7 +24,6 @@ export class ContentComponent implements OnInit {
     };
 
     const typed = new Typed('.typing-element', options);
-    localStorage.removeItem('cadastro');
   }
 
   cadastroClientes() {
