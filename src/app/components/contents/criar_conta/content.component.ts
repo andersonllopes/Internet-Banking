@@ -28,6 +28,6 @@ export class ContentComponent implements OnInit {
 
   cadastroClientes() {
     console.log("AQUIIIIIIIIII");
-    this.router.navigate(['cadastro-clientes']);
+    this.router.navigateByUrl('cadastro-clientes');
   }
 }

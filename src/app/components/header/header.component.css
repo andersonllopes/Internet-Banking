@@ -1,37 +1,31 @@
 .wrapper-header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 99.99%;
   padding: 10px 0;
   background: #d42b1e;
   color: #fff;
-  box-shadow: 0 2px 5px -2px grey;
+  box-shadow: 0 2px 5px -2px rgb(0, 0, 0);
 }
-.menu-header li {
-  display: block;
-  font-size: 16px;
-  margin-left: -24px;
-  padding: 0px;
-}
-.acessar-conta {
-  position: absolute;
-  right: 150px;
-  top: 35px;
+
+.acessar{
+  display: inline;
+  margin: 7px;
   background-color: #fff;
   border: 0;
   color: #333;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 300px) {
   .wrapper-header {
-    height: 15vh;
+    height: 10vh;
   }
   .menu-header li {
     list-style: none;
     display: inline;
     position: relative;
     margin: 10px;
-    top: 30px;
+    top: 15px;
     font-size: 18px;
   }
 }

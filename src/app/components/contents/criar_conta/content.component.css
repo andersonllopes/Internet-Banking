@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Crete+Round|Poppins');
 .wrapper-content {
 position: relative;
-width: 100%;
+width: 99,9%;
 height: 90vh;
 z-index: -9999;
 }
@@ -27,23 +26,23 @@ font-weight: bold;
 .bg_img{
 right: 0;
 bottom: 0;
-min-width: 100%;
-min-height: 100%;
+min-width: 70%;
+min-height: 120%;
 width: auto;
 height: auto;
 z-index: -1000;
-background: url('https://imagens.ebc.com.br/1LPkC8LWWNaedGnjORCip6I6qmM=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/30092020dolar1378.jpg?itok=WJeeMRST?raw=true') no-repeat;
+background: url('https://cdn.pixabay.com/photo/2021/04/24/09/54/online-shopping-6203699_960_720.jpg') no-repeat;
 background-size: cover;
 }
 
 .btn-home-cadastro-clientes {
   position: absolute !important;
-  top: 150px;
-  right: -450px;
+  top: 300px;
+  right: 180px;
   padding: 20px;
-  font-size: 25px;
-  width: 40%;
-  background: rgb(177, 25, 25);
+  font-size: 30px;
+  width: 20%;
+  background: #d42b1e;
   color: #fff;
   border: 2px solid;
-  }
+}

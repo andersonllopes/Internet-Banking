@@ -7,10 +7,9 @@ import { MatDialog } from "@angular/material/dialog";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Internet-Banking';
+  title = 'Banco Apollo';
 
   constructor(public dialog: MatDialog){}
-
   openDialog(){
 
     const dialogRef = this.dialog.open(AppComponent,{
