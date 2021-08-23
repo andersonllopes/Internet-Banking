@@ -62,7 +62,7 @@ input, select {
   font-weight: 500;
   font-size: 13px; }
   input:focus, select:focus {
-    border: 1px solid #ff6801; }
+    border: 1px solid #d42b1e; }
 
 label {
   font-size: 14px;
@@ -109,10 +109,10 @@ label {
   cursor: pointer; }
 
 #submit {
-  background: #ff6801;
+  background: #d42b1e;
   color: #fff; }
   #submit:hover {
-    background-color: #cd5300; }
+    background-color: #caa70d; }
 
 @media screen and (max-width: 992px) {
   .container {

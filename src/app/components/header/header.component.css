@@ -9,6 +9,13 @@
   box-shadow: 0 2px 5px -2px rgb(0, 0, 0);
 }
 
+.img-inicio{
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  margin-top: -20;
+}
+
 .acessar{
   display: inline;
   margin: 7px;
@@ -25,7 +32,7 @@
     display: inline;
     position: relative;
     margin: 10px;
-    top: 15px;
+    bottom: -5px;
     font-size: 18px;
   }
 }
