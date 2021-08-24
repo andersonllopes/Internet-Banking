@@ -22,7 +22,14 @@
   background-color: #fff;
   border: 0;
   color: #333;
+  text-decoration: none;
 }
+
+.acessar a{
+  text-decoration: none;
+  color: black;
+}
+
 @media screen and (min-width: 300px) {
   .wrapper-header {
     height: 10vh;
@@ -34,5 +41,11 @@
     margin: 10px;
     bottom: -5px;
     font-size: 18px;
+
+  }
+
+  .menu-header a{
+    text-decoration: none;
+    color: #fff;
   }
 }

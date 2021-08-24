@@ -1,24 +1,26 @@
-<div class="wrapper-header">
-  <div class="row">
-    <div class="col-xs-12 col-md-9">
-      <ul class="menu-header">
-        <img class="img-inicio" src="../../../assets/Image/icon.png">
-        <li>Abra sua conta</li>
-        <li>Investimentos</li>
-        <li>Planos</li>
-      </ul>
-    </div>
-    <div class="col-md-3">
-      <form [formGroup]="formLogin">
-        <div class="form-row align-items-center">
-          <div class="col-auto my-12">
-            <ul class="">
-              <li type="submit" class="btn btn-primary acessar">Abra sua conta</li>
-              <li type="submit" class="btn btn-primary acessar">Acessar</li>
-            </ul>
+<nav class="navbar navbar-expand-lg navbar-light  sticky-top  bg-white">
+ <div class="wrapper-header">
+    <div class="row">
+      <div class="col-xs-12 col-md-9">
+        <ul class="menu-header">
+          <a href="#home"><img class="img-inicio" src="../../../assets/Image/icon.png"></a>
+          <li class="nav-item p-0 me-3"><a href="#sobrenos">Sobre nós</a></li>
+          <li class="nav-item p-0 me-3"><a href="#cartoes">Cartões</a></li>
+          <li class="nav-item p-0 me-3"><a href="#aplicativo">Aplicativo</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <form [formGroup]="formLogin">
+          <div class="form-row align-items-center">
+            <div class="col-auto my-12">
+              <ul class="">
+                <li type="submit" class="btn btn-primary acessar"><a routerLink="/cadastro">Abra sua conta</a></li>
+                <li type="submit" class="btn btn-primary acessar"><a href="#login">Acessar</a></li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </div>
-</div>
+</nav>

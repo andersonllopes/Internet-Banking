@@ -1,0 +1,41 @@
+.wrapper-content {
+  position: relative;
+  width: 99,9%;
+  height: 100vh;
+  z-index: -9999;
+}
+.box-tile {
+  width: 40vw;
+  height: 100px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  padding: 10px;
+}
+.wrapper-content h1 {
+  font-size: 60pt;
+  color: #fff;
+  text-shadow: 2px 2px #333;
+  font-family: 'Crete Round', serif !important;
+}
+.wrapper-content h2 {
+  font-size: 40pt;
+  color: #d42b1e;
+  text-shadow: 1px 1px #333;
+  font-family: 'Crete Round', serif !important;
+}
+
+.tag {
+  font-size: 2-pt;
+  color: #d42b1e;
+  font-weight: bold;
+}
+.bg_img{
+  height: 1000px;
+  background: url('../../../../assets/Image/contadigital.png') no-repeat;
+  background-position: 640px;
+  background-size: 500px;
+  background-position-y: 17%;
+  background-position-x: 85%;
+}
+

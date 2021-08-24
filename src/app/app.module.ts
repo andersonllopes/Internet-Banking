@@ -6,11 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule } from '@angular/material/dialog';
 import { HeaderComponent } from './components/header/header.component';
-import { ContentComponent } from './components/contents/criar_conta/content.component';
+import { ContentComponent } from './components/contents/criar-conta/content.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CadastroClientesComponent } from './components/acesso/cadastro/cadastro-clientes.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HomepageComponent } from './components/homepage/homepage.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { SobreNosComponent } from './components/contents/sobre-nos/sobre-nos.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     ContentComponent,
     FooterComponent,
     CadastroClientesComponent,
-    CartaoComponent
+    CartaoComponent,
+    HomepageComponent,
+    SobreNosComponent
 
   ],
   imports: [
@@ -29,8 +34,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     ReactiveFormsModule
   ],
-  providers: [],
-  bootstrap: [AppComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  providers: [{provide:LocationStrategy,
+    useClass:HashLocationStrategy}],
+  bootstrap: [AppComponent]
+
 })
 export class AppModule { }
